@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: Helvetica, sans-serif;
-  line-height: 1.4em;
+  line-height: 1.4rem;
 }
 
 h1, h4 {
@@ -43,6 +43,7 @@ h1, h4 {
 }
 
 .title {
+  line-height: 2rem;
   text-transform: uppercase;
 }
 
@@ -57,37 +58,37 @@ h1, h4 {
 /* Main Banner */
 
 .splash {
-  background: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/moto.jpeg);
+  background: url(../images/moto.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 25em;
+  height: 25rem;
 }
 
 .headline {
   background-color: black;
   color: white;
-  width: 20em;
-  padding: 2em 3em;
+  width: 20rem;
+  padding: 2rem 3rem;
   position: relative;
-  top: 9em;
+  top: 9rem;
 }
 
 .headline h1 {
-  font-size: 2em;
-  line-height: 1.2em;
-  margin: 0.25em 0;
+  font-size: 2rem;
+  line-height: 1.9rem;
+  margin: 0.25rem 0;
 }
 
 @media only screen and (max-width: 470px) {
   .splash {
-    height: 15em;
+    height: 15rem;
   }
 
   .headline {
     width: 100%;
-    padding: 1em 2em;
-    top: 10em;
+    padding: 1rem 2rem;
+    top: 10rem;
   }
 
   .headline h4 {
@@ -110,7 +111,7 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.75em 0;
+  padding: 0.75rem 0;
   list-style: none;
 }
 
@@ -135,7 +136,7 @@ nav ul {
 .biz-info {
   display: flex;
   justify-content: space-between;
-  margin: 3em 0 0 0;
+  margin: 3rem 0 0 0;
 }
 
 .product {
@@ -144,15 +145,15 @@ nav ul {
 
 .prod-img {
   border: 4px solid black;
-  padding: 2em 0;
-  height: 9em;
+  padding: 2rem 0;
+  height: 9rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .prod-img img {
-  max-width: 8em;
+  max-width: 8rem;
 }
 
 .description {
@@ -160,7 +161,7 @@ nav ul {
   background-color: black;
   color: white;
   text-align: center;
-  padding: 0.5em;
+  padding: 0.5rem;
 }
 
 .info {
@@ -171,7 +172,7 @@ nav ul {
   display: block;
   background-color: black;
   color: white;
-  padding: 1em 2em;
+  padding: 1rem 2rem;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -201,7 +202,7 @@ nav ul {
 
   .info {
     width: 90%;
-    margin: 0.5em auto;
+    margin: 0.5rem auto;
   }
 }
 
@@ -210,8 +211,8 @@ nav ul {
 footer {
   background-color: black;
   color: white;
-  padding: 5em 0;
-  margin-top: 4em;
+  padding: 5rem 0;
+  margin-top: 4rem;
 }
 
 
