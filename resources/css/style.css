@@ -132,15 +132,16 @@ nav ul {
 
 /* Products and Business Information Section */
 
+
+.product {
+  width: 30%;
+}
+
 .products,
 .biz-info {
   display: flex;
   justify-content: space-between;
   margin: 3rem 0 0 0;
-}
-
-.product {
-  width: 30%;
 }
 
 .prod-img {
